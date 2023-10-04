@@ -12,5 +12,6 @@ jobs:
         with:
           node-version: 18.17.0
       - run: npm install -g npm@latest
+      - run: npm install -D webpack-cli -y
       - run: npm test
       - run: npm run build
