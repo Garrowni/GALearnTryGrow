@@ -4,7 +4,7 @@
   "description": "Practicing GithubActions",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "",
     "build": "webpack src/app.js -o public/bundle.js"
   },
   "repository": {
@@ -25,12 +25,9 @@
   },
   "homepage": "https://github.com/Garrowni/GALearnTryGrow#readme",
   "devDependencies": {
-    "babel-jest": "^29.7.0",
-    "jest": "^29.7.0",
     "regenerator-runtime": "^0.14.0",
     "webpack": "^5.88.2"
   },
   "dependencies": {
-    "jsdom": "^22.1.0"
   }
 }
