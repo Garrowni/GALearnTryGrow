@@ -1,0 +1,30 @@
+{
+  "name": "gadevops",
+  "version": "1.0.0",
+  "description": "Practicing GithubActions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garrowni/GALearnTryGrow.git"
+  },
+  "keywords": [
+    "Jest",
+    "CI/CD",
+    "Github",
+    "GithubActions",
+    "node"
+  ],
+  "author": "Nicole Garrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garrowni/GALearnTryGrow/issues"
+  },
+  "homepage": "https://github.com/Garrowni/GALearnTryGrow#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.88.2"
+  }
+}
