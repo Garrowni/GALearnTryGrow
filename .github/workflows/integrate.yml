@@ -14,4 +14,4 @@ jobs:
       - run: npm install -g npm@latest
       - run: npm install -D webpack-cli -y
       - run: npm test
-      - run: npm run build
+      - run: npm run build 

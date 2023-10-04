@@ -2,10 +2,9 @@
   "name": "gadevops",
   "version": "1.0.0",
   "description": "Practicing GithubActions",
-  "main": "index.js",
   "scripts": {
     "test": "",
-    "build": "webpack src/app.js -o public/bundle.js"
+    "build": "webpack ./src/app.js -o ./public/bundle.js"
   },
   "repository": {
     "type": "git",
